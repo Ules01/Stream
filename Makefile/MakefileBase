@@ -1,0 +1,14 @@
+CFlAGS = -std=c99 -pedantic -Wall -Wextra -Werror -Wvla
+OBJ = prog.o mult.o
+OBJ_SORT = sort.o
+BIN_SORT = sort
+BIN = prog
+
+
+all: $(BIN)
+	@echo Compilation done
+
+$(BIN): $(OBJ)
+
+clean:
+	$(RM) $(BIN) $(OBJ)
