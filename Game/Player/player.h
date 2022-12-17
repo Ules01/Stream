@@ -9,8 +9,10 @@ struct player
     int life;
     float x;
     float y;
-    float a;
-    float v;
+    float ax;
+    float vx;
+    float ay;
+    float vy;
     int power;
 };
 

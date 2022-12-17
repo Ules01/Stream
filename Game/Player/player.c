@@ -17,6 +17,6 @@ void destroy_player(struct player *p)
 
 void printp(struct player *p)
 {
-    printf("*life = %d\n*power = %d\n*vitesse = %f\n*accélération = %f\n*x = %f\n*y = %f\n",
-    p->life, p->power, p->v, p->a, p->x, p->y);
+    printf("*life = %d\n*power = %d\n*vitesse horizontale = %f\n*accélération horizontale = %f\n*x = %f\n*vitesse verticale = %f\n *accélération verticale = %f\n*y = %f\n",
+    p->life, p->power, p->vx, p->ax, p->x, p->vy, p->ay, p->y);
 }
